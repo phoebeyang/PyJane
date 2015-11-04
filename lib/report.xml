@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="4" errors="2" failures="0" skip="0"><testcase classname="test_address_shipping.test_exception" name="test_getAddress" time="0.038"><system-out><![CDATA[{'content': {u'status': u'2', u'message': u'\u670d\u52a1\u8c03\u7528\u6210\u529f', u'result': []}, 'resp_code': 200}
+succ
+]]></system-out></testcase><testcase classname="test_address_shipping.test_main_function" name="test_getAddress" time="0.014"><system-out><![CDATA[succ
+]]></system-out></testcase><testcase classname="test_demo.test_exception" name="test_getAddress" time="0.000"><error type="exceptions.AttributeError" message="'module' object has no attribute 'uri'"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib64/python2.6/unittest.py", line 278, in run
+    testMethod()
+  File "/usr/lib/python2.6/site-packages/nose-1.3.7-py2.6.egg/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/ych/AutoTest/PyJane/test_demo/test_exception.py", line 16, in test_getAddress
+    uri = erro_data.uri["getAddress"]
+AttributeError: 'module' object has no attribute 'uri'
+]]></error></testcase><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.SyntaxError" message="invalid syntax (demo_data.py, line 27)"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib64/python2.6/unittest.py", line 278, in run
+    testMethod()
+  File "/usr/lib/python2.6/site-packages/nose-1.3.7-py2.6.egg/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/lib/python2.6/site-packages/nose-1.3.7-py2.6.egg/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/lib/python2.6/site-packages/nose-1.3.7-py2.6.egg/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/home/ych/AutoTest/PyJane/test_demo/test_main_function.py", line 9, in <module>
+    from data import common_data,demo_data
+  File "/home/ych/AutoTest/PyJane/test_demo/data/demo_data.py", line 27
+    "result" :[{k1:v1},{k2:v2}...]
+                               ^
+SyntaxError: invalid syntax
+]]></error></testcase></testsuite>
