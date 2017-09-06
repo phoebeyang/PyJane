@@ -4,9 +4,9 @@ import MySQLdb
 import json
 from log import *
 
-MYSQL_HOST = "10.154.156.14"
-MYSQL_USER = "root"
-MYSQL_PASSWD = "1234"
+MYSQL_HOST = "xx.xx.xx.xx"
+MYSQL_USER = "xxxx"
+MYSQL_PASSWD = "xxxx"
 MYSQL_PORT = 3306
 
 def query_mysql(sql,db,host=MYSQL_HOST,user=MYSQL_USER,passwd=MYSQL_PASSWD,port=MYSQL_PORT):
